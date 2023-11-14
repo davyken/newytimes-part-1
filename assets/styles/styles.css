@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 100px;
+  max-width: fit-content;
+  font-size: large;
+  font-family: sans-serif;
+}
+
+header {
+  width: calc(100vw - 12px);
+  margin: auto;
+  margin-top: 10px;
+}
+
+main {
+  display: block;
+  justify-content: center;
+}
+
+footer {
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+  width: calc(95% - 15px);
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: blueviolet;
+  }
+}
